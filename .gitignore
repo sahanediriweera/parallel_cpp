@@ -1,0 +1,32 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled binary files (executables)
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Ignore CMake build directories
+/build/
+/cmake-build-*/
+
+# Ignore Makefile-generated files
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Ignore logs and core dumps
+*.log
+core
+*.core
+
+# Ignore user-specific and temporary files
+*.swp
+*.swo
+*~
