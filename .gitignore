@@ -1,32 +1,34 @@
-# Ignore compiled object files
-*.o
-*.obj
+# === Binary files (Linux) ===
+# Ignore all binaries recursively
+**/*.o
+**/*.out
+**/*.a
+**/*.so
+**/a.out
+**/static
+**/dynamic
 
-# Ignore compiled binary files (executables)
-*.exe
-*.out
-*.a
-*.so
-*.dll
-*.dylib
+# === Build artifacts ===
+**/build/
+**/cmake-build-*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Makefile
+**/cmake_install.cmake
+**/compile_commands.json
 
-# Ignore CMake build directories
-/build/
-/cmake-build-*/
+# === Logs, core dumps ===
+**/*.log
+**/core
+**/*.core
 
-# Ignore Makefile-generated files
-Makefile
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-compile_commands.json
+# === Editor swap/backup files ===
+**/*~
+**/*.swp
+**/*.swo
+**/#*#
+**/.#*
 
-# Ignore logs and core dumps
-*.log
-core
-*.core
-
-# Ignore user-specific and temporary files
-*.swp
-*.swo
-*~
+# === IDE/project files ===
+**/.vscode/
+**/.idea/
