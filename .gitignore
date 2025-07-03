@@ -7,6 +7,7 @@
 **/a.out
 **/static
 **/dynamic
+**/coarse_grained
 
 # === Build artifacts ===
 **/build/
