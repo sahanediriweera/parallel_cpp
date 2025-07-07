@@ -10,6 +10,7 @@
 **/coarse_grained
 **/fine_grained
 **/serial
+**/output
 
 # === Build artifacts ===
 **/build/
