@@ -9,6 +9,7 @@
 **/dynamic
 **/coarse_grained
 **/fine_grained
+**/serial
 
 # === Build artifacts ===
 **/build/
